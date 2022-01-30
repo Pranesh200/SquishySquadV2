@@ -1,0 +1,16 @@
+{
+  "title": "Exclusive Squishy Community",
+  "text": "After minting, Squishy Squad holders will have exclusive access to a private channel. We will discuss NFT and crypto updates. Moreover, the Squad will create a tight-knit community with many events.",
+  "section": [
+    {
+      "title": "Why Antd?",
+      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Why styled-components?",
+      "content": "Styled Components gives you total control over your components.",
+      "icon": "notes.svg"
+    }
+  ]
+}
