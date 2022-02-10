@@ -6,6 +6,7 @@ import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import fourthContent from "../../content/4thblock.json";
+import TeamContent from "../../content/TeamContent.json";
 import fifthContent from "../../content/5thblock.json";
 import sixthContent from "../../content/6thblock.json";
 import seventhContent from "../../content/7thblock.json";
@@ -14,6 +15,7 @@ import seventhContent from "../../content/7thblock.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
+const Team = lazy(() => import("../../components/Team"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
@@ -72,6 +74,17 @@ const Home = () => {
         icon="waving.svg"
         id="product"
       />
+      {/* <ContentBlock
+        type="left"
+        title={TeamContent.title}
+        content={TeamContent.text}
+        section={AboutContent.section}
+        icon="graphs.svg"
+        id="about"
+      /> */}
+      {/* <Team         title={MiddleBlockContent.title}
+        content={MiddleBlockContent.text}
+        button={MiddleBlockContent.button}></Team> */}
     </Container>
   );
 };

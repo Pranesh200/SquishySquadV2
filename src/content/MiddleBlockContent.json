@@ -1,6 +1,18 @@
 {
-    "title": "Introduce your product quickly & effectively",
+    "title": "Squishy Family",
     "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get started"
+    "button": "Get started",
+    "section": [
+      {
+        "title": "Why Antd?",
+        "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+        "icon": "notes.svg"
+      },
+      {
+        "title": "Why styled-components?",
+        "content": "Styled Components gives you total control over your components.",
+        "icon": "notes.svg"
+      }
+    ]
   }
   

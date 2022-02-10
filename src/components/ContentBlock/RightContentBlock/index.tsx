@@ -28,7 +28,7 @@ const particleOptions: ParticleOptions = {
     // Make a particle for this pixel if blue > 50 (range 0-255)
     return pixel.b > 50;
   },
-  color: ({ x, y, image }) => "#FFD700",
+  color: ({ x, y, image }) => "#FFFF00",
   radius: () => Math.random() * 1.5 + 0.5,
   mass: () => 40,
   friction: () => 0.15,
@@ -53,7 +53,7 @@ const Particles = ({ t }: any) => {
       particleOptions={particleOptions}
       mouseMoveForce={motionForce}
       touchMoveForce={motionForce}
-      backgroundColor="#FFFFFF"
+      backgroundColor="linear-gradient(to right, #8e2de2, #4a00e0);"
     />
   );
 };

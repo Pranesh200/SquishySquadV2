@@ -52,10 +52,10 @@ const Header = ({ t }: any) => {
              <Span>{t("FAQ")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("")}>
-          <SocialIcon url="https://twitter.com/squishysquadnft" />
+          <SocialIcon url="https://twitter.com/squishysquadnft" bgColor="#fff"/>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("")}>
-          <SocialIcon url="discord.gg/squishysquad" />
+          <SocialIcon url="discord.gg/squishysquad" bgColor="#fff" />
         </CustomNavLinkSmall>
       </>
     );

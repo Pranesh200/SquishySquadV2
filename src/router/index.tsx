@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import routes from "./config";
 import { Styles } from "../styles/styles";
+import { Parallax } from 'react-scroll-parallax';
 
 const Router = () => {
   return (
